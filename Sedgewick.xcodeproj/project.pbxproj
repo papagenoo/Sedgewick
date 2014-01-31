@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50B01FD3189B03BB0051F6EF /* Stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B01FD1189B03BB0051F6EF /* Stat.cpp */; };
+		50B01FD6189B03ED0051F6EF /* Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B01FD4189B03ED0051F6EF /* Number.cpp */; };
+		50B01FD9189B06DE0051F6EF /* PQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B01FD7189B06DE0051F6EF /* PQ.cpp */; };
 		50F0A9F61899C084004A70D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F0A9F51899C084004A70D4 /* main.cpp */; };
 		50F0A9F81899C084004A70D4 /* Sedgewick.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50F0A9F71899C084004A70D4 /* Sedgewick.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		50B01FD1189B03BB0051F6EF /* Stat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stat.cpp; sourceTree = "<group>"; };
+		50B01FD2189B03BB0051F6EF /* Stat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stat.h; sourceTree = "<group>"; };
+		50B01FD4189B03ED0051F6EF /* Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Number.cpp; sourceTree = "<group>"; };
+		50B01FD5189B03ED0051F6EF /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		50B01FD7189B06DE0051F6EF /* PQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PQ.cpp; sourceTree = "<group>"; };
+		50B01FD8189B06DE0051F6EF /* PQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQ.h; sourceTree = "<group>"; };
 		50F0A9F21899C084004A70D4 /* Sedgewick */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sedgewick; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F0A9F51899C084004A70D4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		50F0A9F71899C084004A70D4 /* Sedgewick.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sedgewick.1; sourceTree = "<group>"; };
@@ -44,6 +53,12 @@
 		50F0A9E91899C084004A70D4 = {
 			isa = PBXGroup;
 			children = (
+				50B01FD1189B03BB0051F6EF /* Stat.cpp */,
+				50B01FD2189B03BB0051F6EF /* Stat.h */,
+				50B01FD4189B03ED0051F6EF /* Number.cpp */,
+				50B01FD5189B03ED0051F6EF /* Number.h */,
+				50B01FD7189B06DE0051F6EF /* PQ.cpp */,
+				50B01FD8189B06DE0051F6EF /* PQ.h */,
 				50F0A9F41899C084004A70D4 /* Sedgewick */,
 				50F0A9F31899C084004A70D4 /* Products */,
 			);
@@ -117,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B01FD9189B06DE0051F6EF /* PQ.cpp in Sources */,
+				50B01FD6189B03ED0051F6EF /* Number.cpp in Sources */,
 				50F0A9F61899C084004A70D4 /* main.cpp in Sources */,
+				50B01FD3189B03BB0051F6EF /* Stat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +243,7 @@
 				50F0A9FD1899C084004A70D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
