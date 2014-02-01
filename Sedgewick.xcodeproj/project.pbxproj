@@ -11,18 +11,19 @@
 		50B01FD6189B03ED0051F6EF /* Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B01FD4189B03ED0051F6EF /* Number.cpp */; };
 		50B01FD9189B06DE0051F6EF /* PQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B01FD7189B06DE0051F6EF /* PQ.cpp */; };
 		50F0A9F61899C084004A70D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F0A9F51899C084004A70D4 /* main.cpp */; };
-		50F0A9F81899C084004A70D4 /* Sedgewick.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50F0A9F71899C084004A70D4 /* Sedgewick.1 */; };
+		50F0A9F81899C084004A70D4 /* Sedgewick.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 50F0A9F71899C084004A70D4 /* Sedgewick.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		50F0A9F01899C084004A70D4 /* CopyFiles */ = {
+		50F0A9F01899C084004A70D4 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				50F0A9F81899C084004A70D4 /* Sedgewick.1 in CopyFiles */,
+				50F0A9F81899C084004A70D4 /* Sedgewick.1 in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -90,7 +91,7 @@
 			buildPhases = (
 				50F0A9EE1899C084004A70D4 /* Sources */,
 				50F0A9EF1899C084004A70D4 /* Frameworks */,
-				50F0A9F01899C084004A70D4 /* CopyFiles */,
+				50F0A9F01899C084004A70D4 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -213,6 +214,14 @@
 		50F0A9FC1899C084004A70D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					":",
+					/usr/local/include/Eigen,
+				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -220,6 +229,14 @@
 		50F0A9FD1899C084004A70D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					":",
+					/usr/local/include/Eigen,
+				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
