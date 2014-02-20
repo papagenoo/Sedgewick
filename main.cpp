@@ -57,8 +57,12 @@ String& String::operator=(const String& str)
 
 String& String::operator+(const String& s1) const
 {
-    //char* s2 = new char[strlen(s1.s) + strlen(s) + 1];
-    //strcat(s2, s1, s);
+//    char* s2 = new char[strlen(s1.s) + strlen(s) + 1];
+//    strcpy(s2, s);
+//    strcat(s2, s1.s);
+    String newStr(s);
+//    delete s2;
+    return newStr;
 }
 
 void String::Dump(std::ostream& os)
@@ -78,6 +82,10 @@ int main()
 {
     String* s1 = new String("Hello");
     String* s2 = new String("Goodby");
+    String s3 = (*s1) + (*s2);
+    s3.Dump(cout);
+    return 0;
+    //delete s3;
     *s2 = *s1;
     delete s1;
     s2->Dump(cout);
