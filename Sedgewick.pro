@@ -12,5 +12,6 @@ SOURCES += main.cpp \
 HEADERS += \
     linkedlist.h \
     point.h \
-    sieve_of_eratosthenes.h
+    sieve_of_eratosthenes.h \
+    wdcount.h
 
